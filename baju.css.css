@@ -1,0 +1,140 @@
+body {
+
+    margin: 0;
+
+    font-family: 'Arial', sans-serif;
+
+    background: linear-gradient(135deg, #FF6F91, #FF9671); /* Degrade arka plan */
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+.container {
+
+    background-color: rgba(255, 255, 255, 0.9); /* Beyaz arka plan */
+
+    padding: 20px; /* Daha az padding */
+
+    border-radius: 10px; /* Daha yuvarlak köşeler */
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Daha yumuşak gölge */
+
+    text-align: center;
+
+    width: 280px; /* Daha dar bir genişlik */
+
+}
+
+h1 {
+
+    color: #333;
+
+    margin-bottom: 15px; /* Alt boşluk */
+
+}
+
+p {
+
+    color: #666;
+
+    margin-bottom: 20px; /* Alt boşluk */
+
+}
+
+.login-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.login-form input {
+
+    margin: 10px 0;
+
+    padding: 12px; /* Hafif artırılmış padding */
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    transition: border-color 0.3s;
+
+}
+
+.login-form input:focus {
+
+    border-color: #FF4081; /* Odaklanma rengi */
+
+    outline: none;
+
+}
+
+.login-form button {
+
+    padding: 12px; /* Buton padding'i */
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #FF4081; /* Buton rengi */
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s, transform 0.2s;
+
+}
+
+.login-form button:hover {
+
+    background-color: #D5006D; /* Hover rengi */
+
+    transform: translateY(-2px); /* Yükselme efekti */
+
+}
+
+.error-message {
+
+    color: red;
+
+    margin-top: 10px;
+
+    display: none;
+
+}
+
+.footer {
+
+    margin-top: 20px; /* Alt boşluk */
+
+}
+
+.footer a {
+
+    color: #FF4081;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+.footer a:hover {
+
+    text-decoration: underline;
+
+}
+
+                                         
+            
